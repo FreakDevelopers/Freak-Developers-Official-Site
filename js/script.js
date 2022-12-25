@@ -38,6 +38,16 @@
     }
   });
   
+  $(window).on('scroll', function () {
+    if ($(window).scrollTop() > 70) {
+      $('.nav-link').addClass('list-black');
+      $('#title').addClass('list-black');
+    } else {
+      $('.nav-link').removeClass('list-black');
+      $('#title').removeClass('list-black');
+    }
+  });
+  
 
 	// scroll-to-top
 	if ($('#scroll-to-top').length) {
@@ -56,3 +66,4 @@
   });
 
 })(jQuery);
+

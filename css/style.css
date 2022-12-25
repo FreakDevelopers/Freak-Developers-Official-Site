@@ -368,7 +368,7 @@ a:focus {
 }
 
 .trans-navigation .navbar-brand {
-  padding-top: 13px;
+  padding-top: 6px;
 }
 
 .site-navigation.header-white {
@@ -537,7 +537,7 @@ PAGE BANNER
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -592,6 +592,7 @@ PAGE BANNER
   opacity: 1;
 }
 
+
 .navbar .nav-item-divider {
   display: none;
 }
@@ -606,6 +607,11 @@ PAGE BANNER
   width: 100%;
   background: rgba(20, 27, 40, 0.9);
   border-color: transparent;
+}
+
+#title{
+  margin-bottom: 0 !important;
+  padding: 0.1rem 0;
 }
 
 /*-------------------
@@ -1416,6 +1422,10 @@ CONTACT PAGE
   transition: all 0.3s;
   cursor: pointer;
   opacity: 1;
+}
+
+.list-black{
+  color: black !important;
 }
 
 /*----------------------------------
