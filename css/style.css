@@ -611,9 +611,12 @@ PAGE BANNER
 
 #title{
   margin-bottom: 0 !important;
-  padding: 0.1rem 0;
+  padding: 0.35rem 0;
 }
 
+.navbar .container{
+  margin: -8px auto
+}
 /*-------------------
   DROPDOWN MENU
 ----------------------*/
