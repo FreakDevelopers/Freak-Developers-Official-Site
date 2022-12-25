@@ -350,9 +350,17 @@ a:focus {
 
 @media (max-width: 992px) {
   .trans-navigation {
-    background: #21c87a;
+    background: white;
     box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
     border-radius: 0px;
+  }
+
+  #title{
+    color: black !important;
+  }
+
+  .nav-link{
+    color: black !important;
   }
 }
 
@@ -517,7 +525,7 @@ PAGE BANNER
 }
 
 .navbar-dark .navbar-toggler {
-  color: #fff;
+  color: #000;
   border-color: rgba(255, 255, 255, 0.1);
   padding: 10px 12px;
 }
@@ -643,7 +651,7 @@ PAGE BANNER
   border-radius: 4px;
 }
 .has-dropdown .dropdown-menu a:focus, .has-dropdown .dropdown-menu a:hover {
-  background: #21c87a;
+  background: white;
   color: #fff;
 }
 
@@ -1631,7 +1639,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #fff;
   }
   #map {
     margin-top: 40px;
@@ -1662,7 +1670,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #fff;
   }
   .top-info-block {
     text-align: center;
@@ -1884,7 +1892,7 @@ CONTACT PAGE
   }
   .navbar-collapse.collapse.show {
     padding-bottom: 30px;
-    background: #21c87a;
+    background: #fff;
   }
   .web-service-block {
     margin-bottom: 30px;
