@@ -343,7 +343,7 @@ a:focus {
  HOME-3
 ---------------------------*/
 .header-white {
-  background: #21c87a;
+  background: #fff;
   box-shadow: 0 7px 22px rgba(0, 0, 0, 0.08);
   border-radius: 0px;
 }
@@ -360,7 +360,7 @@ a:focus {
 .site-navigation .navbar-brand h4,
 .site-navigation .navbar-brand h3,
 .trans-navigation .navbar-brand h3 {
-  color: #fff;
+  color: #000;
 }
 
 .banner-content.style-2 {
@@ -537,7 +537,7 @@ PAGE BANNER
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff;
+  color: #000;
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -887,7 +887,7 @@ h5.subtitle {
   top: 0px;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(30deg, rgba(121, 110, 255, 0.95) 0%, rgba(33, 200, 122, 0.95) 100%);
+  background-image: linear-gradient(30deg, #6F81FD 35%, #00DCE5 100%);
 }
 
 .web-service-block {
@@ -951,7 +951,7 @@ h5.subtitle {
   top: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.92);
+  background: rgba(0, 0, 0, 0.30);
 }
 
 .overlay.feature-overlay {
@@ -1334,7 +1334,7 @@ CONTACT PAGE
 }
 
 .footer-overlay {
-  background: #111;
+  background: #000000;
   opacity: 0.94;
 }
 
