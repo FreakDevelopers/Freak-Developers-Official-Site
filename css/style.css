@@ -137,7 +137,7 @@ img {
 
 @media (min-width: 768px) {
   .section {
-    padding: 7.5rem 0;
+    padding: 4.5rem 0;
   }
 }
 .section-top {
@@ -219,8 +219,8 @@ img {
 .bg-primary,
 .btn-primary,
 .btn-white:hover {
-  background: #21c87a !important;
-  border-color: #21c87a !important;
+  background: #6f81fd !important;
+  border-color: #6f81fd !important;
   color: #fff;
 }
 
@@ -277,7 +277,7 @@ img {
 }
 
 a {
-  color: #21c87a;
+  color: #6f81fd;
   transition: 0.3s;
 }
 
@@ -285,7 +285,7 @@ a:hover,
 a:focus {
   outline: none;
   text-decoration: none;
-  color: #1a9c5f;
+  color: grey;
 }
 
 /*----------------------
@@ -875,7 +875,7 @@ h5.subtitle {
   font-size: 25px;
   width: 50px;
   height: 50px;
-  background: #21c87a;
+  background: #6f81fd;
   text-align: center;
   border-radius: 50%;
   padding-top: 5px;
@@ -935,7 +935,7 @@ h5.subtitle {
   border-color: transparent;
 }
 .web-service-block:hover i {
-  color: #21c87a;
+  color: #6f81fd;
 }
 .web-service-block:hover h3 {
   color: #111;
@@ -1376,6 +1376,9 @@ CONTACT PAGE
 .footer-links i {
   width: 25px;
 }
+.footer-links i:hover,a:hover {
+  color: #6f81fd;
+}
 
 .footer-copy {
   color: #888;
@@ -1396,7 +1399,7 @@ CONTACT PAGE
 }
 
 .current-year {
-  color: #21c87a !important;
+  color: #fff !important;
 }
 
 /*-----------------------------
@@ -1408,7 +1411,7 @@ CONTACT PAGE
   right: 30px;
   bottom: 50px;
   z-index: 999;
-  background: #21c87a;
+  background: #6f81fd;
   color: #fff !important;
   border-radius: 100%;
   opacity: 0;
