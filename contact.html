@@ -23,6 +23,10 @@
   <script src="https://kit.fontawesome.com/9134bafd0e.js" crossorigin="anonymous"></script>
   <!-- <link rel="stylesheet" href="plugins/fontawesome/css/all.css" />
     <link rel="stylesheet" href="plugins/fonts/Pe-icon-7-stroke.css" /> -->
+
+  <!-- Mail Service -->
+  <script src="js/smtp.js"></script>
+
   <!-- Themify icon Css -->
   <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />
   <!-- Slick Carousel CSS -->
@@ -293,8 +297,7 @@
             <!-- End Input -->
 
             <div class="">
-              <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message"
-             />
+              <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message" />
 
               <p class="small pt-3">
                 We'll get back to you in 1-2 business days.
@@ -436,15 +439,13 @@
   <script src="plugins/bootstrap/bootstrap.min.js"></script>
   <!-- Slick Slider -->
   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
-  <!-- Google Map -->
-  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script> -->
-  <!-- <script src="plugins/google-map/gmap.js"></script> -->
 
   <script src="js/script.js"></script>
-  <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script src="js/smtp.js"></script>
 
   <script>
     function sendEmail() {
+      const form = document.querySelector('.contact_form');
       const name = document.querySelector('#name').value;
       const email = document.querySelector('#email').value;
       const subject = document.querySelector('#subject').value;
@@ -453,14 +454,16 @@
 
       Email.send({
         Host: "smtp.elasticemail.com",
-        Username: "webdeveloper.nirajs@gmail.com",
-        Password: "6610E1F4B438E59D0DB324D002E9EF72C09E",
+        Username: "webdeveloper.amrut@gmail.com",
+        Password: "8C7AE758ABCB909AD205A17675E6239E99C3",
         To: 'thefreakdevelopers@gmail.com',
-        From: "webdeveloper.nirajs@gmail.com",
+        From: "webdeveloper.amrut@gmail.com",
         Subject: "New Enquiry through contact form",
-        Body: "Name: " + name + "<br> Email: " + email + "<br> Contact No: " + phone + "<br> Message: " + msg 
+        Body: "Name: " + name + "<br> Email: " + email + "<br> Contact No: " + phone + "<br> Subject:" + subject + "<br> Message: " + msg
       }).then(
         message => alert("Recieved your message! We'll contact you shortly!")
+      ).then(
+        form.reset()
       );
     }
   </script>
