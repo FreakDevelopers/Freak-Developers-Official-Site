@@ -480,7 +480,7 @@ PAGE BANNER
 .page-contact {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/p-6.jpg") fixed 50% 50% no-repeat;
+  background: url("../images/banner/contact.jpg") fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -821,12 +821,6 @@ ul.dropdown-menu li {
   background-size: cover;
 }
 
-#banner-4 {
-  position: relative;
-  background: url("../images/banner/banner-2.jpg") no-repeat;
-  background-size: cover;
-}
-
 /*----------------------
  FEATURE STYLE
 -----------------------*/
@@ -926,12 +920,6 @@ h5.subtitle {
 /*----------------------
  WEB SERVICES
 -----------------------*/
-#services-2 {
-  position: relative;
-  background: url("../images/bg/6.jpg") no-repeat fixed 50% 50%;
-  background-size: cover;
-}
-
 #services-2:before {
   position: absolute;
   content: "";
@@ -1485,7 +1473,7 @@ CONTACT PAGE
 }
 
 #footer {
-  background: url("../images/bg/10.jpg");
+  background: url("../images/bg/footer-bg.jpg");
   background-size: cover;
 }
 
