@@ -33,9 +33,9 @@
   <link rel="stylesheet" href="css/style.css" />
 
   <!--Favicon-->
-  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/blue/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/blue/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/blue/android-chrome-512x512.png" />
 </head>
 
 <body id="top-header">
@@ -50,7 +50,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark trans-navigation fixed-top navbar-togglable">
     <div class="container">
       <a class="navbar-brand" href="index.html" style="display: flex; justify-content: center;">
-        <img src="images/icon/logo.png" alt="" srcset="" style="height: 40px; margin-right: 0.4rem;">
+        <img src="images/icon/logo-blue.png" alt="" srcset="" style="height: 40px; margin-right: 0.4rem;">
         <h3 style="display: inline; color: white;" id="title">FreakDevelopers</h3>
       </a>
       <!-- Toggler -->
@@ -210,7 +210,7 @@
           </div>
           <!-- end message -->
           <!-- Contacts Form -->
-          <form class="contact_form" action="mail.php">
+          <form class="contact_form" onsubmit="sendEmail(); return false;">
             <div class="row">
               <!-- Input -->
               <div class="col-sm-6 mb-6">
@@ -293,7 +293,8 @@
             <!-- End Input -->
 
             <div class="">
-              <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message" />
+              <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Send Message"
+             />
 
               <p class="small pt-3">
                 We'll get back to you in 1-2 business days.
@@ -436,10 +437,33 @@
   <!-- Slick Slider -->
   <script src="plugins/slick-carousel/slick/slick.min.js"></script>
   <!-- Google Map -->
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script>
-  <script src="plugins/google-map/gmap.js"></script>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU"></script> -->
+  <!-- <script src="plugins/google-map/gmap.js"></script> -->
 
   <script src="js/script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+  <script>
+    function sendEmail() {
+      const name = document.querySelector('#name').value;
+      const email = document.querySelector('#email').value;
+      const subject = document.querySelector('#subject').value;
+      const phone = document.querySelector('#phone').value;
+      const msg = document.querySelector('#message').value;
+
+      Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "webdeveloper.nirajs@gmail.com",
+        Password: "6610E1F4B438E59D0DB324D002E9EF72C09E",
+        To: 'thefreakdevelopers@gmail.com',
+        From: "webdeveloper.nirajs@gmail.com",
+        Subject: "New Enquiry through contact form",
+        Body: "Name: " + name + "<br> Email: " + email + "<br> Contact No: " + phone + "<br> Message: " + msg 
+      }).then(
+        message => alert("Recieved your message! We'll contact you shortly!")
+      );
+    }
+  </script>
 </body>
 
 </html>
