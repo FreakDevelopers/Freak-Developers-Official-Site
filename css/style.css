@@ -118,7 +118,7 @@ h6 {
 Common Styles
 -----------------*/
 .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 img {
@@ -1432,11 +1432,12 @@ SECTION TESTIMONIAL
 CONTACT PAGE
 -----------------------------*/
 #contact-info {
-  padding-top: 90px;
+  padding: 50px;
 }
 
 .contact-info-block {
   border: 1px solid #eee;
+  box-shadow: 4px 4px 8px 2px gray;
   padding: 40px 20px;
   border-radius: 5px;
 }
