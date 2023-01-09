@@ -1,3 +1,5 @@
+import jQuery from "jquery";
+
 (function ($) {
   "use strict";
 
@@ -6,6 +8,8 @@
     $("#page-loader").fadeOut("slow", function () {
       $(this).remove();
     });
+    // Set current year in footer.
+    $("#current-year").html((new Date).getFullYear());
   });
 
   // navbarDropdown
@@ -66,5 +70,3 @@
     $(".navbar-collapse").collapse("hide");
   });
 })(jQuery);
-
-

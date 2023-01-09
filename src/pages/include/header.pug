@@ -1,0 +1,54 @@
+doctype html
+head
+  //- Basic Page Needs
+  meta(charset='utf-8')
+  title FreakDevelopers
+
+  //- Mobile Specific Metas
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='description' content='Corporate Html5 Template')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0')
+  meta(name='author' content='FreakDevelopers')
+  //- bootstrap
+  link(rel='stylesheet' href='../../node_modules/bootstrap/dist/css/bootstrap.min.css')
+  //- Animate
+  link(rel='stylesheet' href='../../node_modules/animate.css/animate.min.css')
+  //- Icon Font css
+  script(type='module' src='https://kit.fontawesome.com/9134bafd0e.js' crossorigin='anonymous')
+  //- Slick Carousel CSS
+  link(rel='stylesheet' href='../../node_modules/slick-carousel/slick/slick.scss')
+  link(rel='stylesheet' href='../../node_modules/slick-carousel/slick/slick-theme.scss')
+  //- Main Stylesheet
+  link(rel='stylesheet' href='../assets/../assets/scss/style.scss')
+  //- Favicon
+  link(rel='apple-touch-icon' sizes='180x180' href='../assets/images/favicon/apple-touch-icon.png')
+  link(rel='icon' type='image/png' sizes='32x32' href='../assets/images/favicon/favicon-32x32.png')
+  link(rel='icon' type='image/png' sizes='16x16' href='../assets/images/favicon/favicon-16x16.png')
+
+  #page-loader
+    .loader-icon.fa.fa-spin.colored-border
+  //- NAVBAR
+  nav.navbar.navbar-expand-lg.navbar-dark.trans-navigation.fixed-top.navbar-togglable
+    .container
+      a.navbar-brand(href='./index.pug', style='display: flex; justify-content: center;')
+        img(src='../assets/images/logo/logo-blue.png', alt='', style='height: 40px; margin-right: 0.4rem;')
+        h3#title(style='display: inline; color: white;') FreakDevelopers
+      //- Toggler
+      button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarCollapse', aria-controls='navbarCollapse', aria-expanded='false', aria-label='Toggle navigation')
+        span.fa.fa-bars
+      //- Collapse
+      #navbarCollapse.collapse.navbar-collapse.has-dropdown
+        //- Links
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href='./index.pug')  Home
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href='./about.pug')
+              | About
+          li.nav-item
+            a.nav-link.js-scroll-trigger(href='./service.pug')
+              | Services
+          li.nav-item
+            a.nav-link(href='./contact.pug')  Contact
+      //- / .navbar-collapse
+      //- / .container

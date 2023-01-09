@@ -1,0 +1,34 @@
+{
+  "name": "freak-developers-official-site",
+  "version": "1.0.0",
+  "description": "Freak Developer's official website.",
+  "scripts": {
+    "start": "parcel src/pages/index.pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreakDevelopers/Freak-Developers-Official-Site.git"
+  },
+  "author": "Freak Developers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FreakDevelopers/Freak-Developers-Official-Site/issues"
+  },
+  "homepage": "https://github.com/FreakDevelopers/Freak-Developers-Official-Site#readme",
+  "devDependencies": {
+    "@parcel/transformer-inline-string": "^2.8.2",
+    "@parcel/transformer-pug": "^2.8.2",
+    "@parcel/transformer-sass": "^2.8.2",
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "animate.css": "^4.1.1",
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.3",
+    "slick-carousel": "^1.8.1"
+  },
+  "engines": {
+    "node": "~18"
+  }
+}

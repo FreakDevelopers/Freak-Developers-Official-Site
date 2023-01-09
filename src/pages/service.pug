@@ -1,0 +1,126 @@
+include include/header.pug
+
+body#top-header
+  //- HERO
+  section.page-banner-area.page-service
+    .overlay
+    //- Content
+    .container
+      .row.justify-content-center
+        .col-lg-9.col-md-12.col-12.text-center
+          .page-banner-content
+            h1.display-4.font-weight-bold Web services
+            p We&apos;d love to talk about how we can help you.
+      //- .row
+    //- .container
+  section#service.section
+    .container
+      .row.justify-content-center.mb-5
+        .col-lg-7.pl-4.text-center
+          .service-heading
+            h1 Get a Better Deal and Start Saving Money Today
+      .row.justify-content-center
+        .col-lg-4.col-md-6
+          .service-block.media
+            .service-icon
+              i.fa-solid.fa-layer-group
+            .service-inner-content.media-body
+              h4 Responsive Website
+              p
+                | A responsive website that will work across mutile platforms and devices.
+        .col-lg-4.mb-3.col-md-6
+          .service-block.media
+            .service-icon
+              i.fa-solid.fa-lightbulb
+            .service-inner-content.media-body
+              h4 Innovative
+              p
+                | Great website design begins with innovation that adds to your bottom line.
+        .col-lg-4.mb-3.col-md-6
+          .service-block.media
+            .service-icon
+              i.fa-solid.fa-chart-line
+            .service-inner-content.media-body
+              h4 Simplify Your Business
+              p
+                | Top notch user experience that commands attention and encourages conversion.
+        .row
+          .col-lg-12.text-center
+            p.pl-3
+              | Want to know more about this?
+              a(href='./contact.pug') Contact US
+  section#services-2.section
+    .container
+      .row.justify-content-center
+        .col-md-8.col-lg-6.text-center
+          .section-heading
+            //- Heading
+            h2.section-title.mb-2.text-white Web Services
+            //- Subheading
+            p.mb-5.text-white
+              | FreakDevelopers can be used to create anything from a small marketing page
+              | to a sophisticated website.
+      //- .row
+      .row
+        .col-lg-4.col-sm-6.col-md-6.mb-30
+          .web-service-block
+            i.fa-solid.fa-palette
+            h3 Web Design
+            p
+              | We&apos;ll come up with a UI design that coincides with your expectations and brand requirement.
+        .col-lg-4.col-sm-6.col-md-6.mb-30
+          .web-service-block
+            i.fa-solid.fa-laptop-code
+            h3 Web Development
+            p
+              | We&apos;ll carefully evaluate the website requirements and decide the technology stack to be used to turn your
+              | idea into an innovative website.
+        .col-lg-4.col-sm-6.col-md-6.mb-30
+          .web-service-block
+            i.fa-solid.fa-gear
+            h3 Web Hosting
+            p
+              | We&apos;ll finally deliver the output and deploy complete product with hosting.
+  section#process.section.bg-grey
+    .container
+      .row.justify-content-center.mb-4
+        .col-md-8.col-lg-6.text-center
+          .section-heading
+            //- Heading
+            h2.section-title Our Working process
+            //- Subheading
+            p
+              | We&apos;re here to assist you in expanding your business.
+      //- .row
+      .row.justify-content-center
+        .col-lg-4.col-sm-6.col-md-6
+          .process-block
+            #process-1.process
+              img.rotate-center(src='../assets/images/process/process-1.png' alt='')
+              i.fa-solid.fa-brain
+            h3 Idea &amp; Analysis Gathering
+            p
+              | We are aware of your expectations for a new website or portal that is being developed or upgraded, and we
+              | always recommend the finest methods. It goes well beyond just gathering requirements.
+        .col-lg-4.col-sm-6.col-md-6
+          .process-block
+            #process-2.process
+              img.rotate-center(src='../assets/images/process/process-2.png' alt='')
+              i.fa-solid.fa-code
+            h3 Designing &amp; Developing
+            p
+              | Our team begins working on the website&apos;s aesthetics after the needs are determined, and they then share
+              | the front end, or look and feel, with you. Following your acceptance of the website&apos;s aesthetics, we will
+              | move on to the functionality and ask for your feedback on the User Interface (UI) and User Experience (UX)
+              | (UX).
+        .col-lg-4.col-sm-6.col-md-6
+          .process-block
+            #process-3.process
+              img.rotate-center(src='../assets/images/process/process-3.png' alt='')
+              i.fa-solid.fa-rocket
+            h3 Testing &amp; Launching
+            p
+              | The entire website or portal is carefully inspected for any bugs or faults, as well as for functionality.
+              | After sharing it with you on the beta server, it awaits final clearance before becoming live.
+
+include include/footer.pug

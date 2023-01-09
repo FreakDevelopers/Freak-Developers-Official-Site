@@ -1,0 +1,77 @@
+
+footer#footer.section
+  .overlay.footer-overlay
+  //- Content
+  .container
+    .row.justify-content-start
+      .col-lg-4.col-sm-12
+        .footer-widget
+          //- Brand
+          a.footer-brand.text-white(href='./index.pug' style='display: flex; align-items: center;')
+            img(src='../assets/images/logo/logo-blue.png' alt='' style='height: 40px; margin-right: 0.4rem;')
+            |             FreakDevelopers
+          p
+            | Be a freak and build freakin awesome websites with FreakDevelopers.
+      .col-lg-3.ml-lg-auto.col-sm-12
+        .footer-widget
+          h3 Account
+          //- Links
+          ul.footer-links
+            li
+              a(href='#!')  Terms and conditions
+            li
+              a(href='#!')  Privacy policy
+            li
+              a(href='#!')  Help and support
+      .col-lg-2.col-sm-6
+        .footer-widget
+          h3 About
+          //- Links
+          ul.footer-links
+            li
+              a(href='./about.pug')  About Us
+            li
+              a(href='./service.pug')  Services
+            li
+              a(href='./contact.pug')  Contact
+      .col-lg-2.col-sm-6
+        .footer-widget
+          h3 Socials
+          //- Links
+          ul.list-unstyled.footer-links
+            li
+              a(href='https://www.linkedin.com/in/freak-developers-05967b25b' target='_blank')
+                i.fa-brands.fa-linkedin
+                | LinkedIn
+            li
+              a(href='https://github.com/FreakDevelopers' target='_blank')
+                i.fa-brands.fa-github
+                | GitHub
+            li
+              a(href='https://www.instagram.com/freakdevelopers/' target='_blank')
+                i.fa-brands.fa-instagram
+                | Instagram
+    //- .row
+    .row.text-right.pt-5
+      .col-lg-12
+        .overflow-hidden
+          //- Copyright
+          p.footer-copy
+            | Copyright &copy;
+            span#current-year
+            |. Designed &amp; Developed by
+            a(target="_blank" href='http://www.freakdevelopers.com/')  FreakDevelopers
+    //- .row
+  //- .container
+//- Page Scroll to Top
+a#scroll-to-top.scroll-to-top.js-scroll-trigger(href='#top-header')
+  i.fa.fa-angle-up
+//- jQuery
+script(type="module" src='../../node_modules/jquery/dist/jquery.min.js')
+//- Bootstrap
+script(type="module" src='../../node_modules/bootstrap/dist/js/bootstrap.min.js')
+//- Slick Slider
+script(type="module" src='../../node_modules/slick-carousel/slick/slick.min.js')
+
+script(type="module" src='../assets/js/script.js')
+script(type="module" src='../assets/js/smtp.js')

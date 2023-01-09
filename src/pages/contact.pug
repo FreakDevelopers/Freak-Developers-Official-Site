@@ -1,0 +1,111 @@
+include include/header.pug
+
+body#top-header
+  //- HERO
+  section.page-banner-area.page-contact
+    .overlay
+    //- Content
+    .container
+      .row.justify-content-center
+        .col-lg-9.col-md-12.col-12.text-center
+          .page-banner-content
+            h1.display-4.font-weight-bold Got a question?
+            p We&apos;d love to talk about how we can help you.
+      //- .row
+    //- .container
+  //- SECTIONS
+  section#contact-info
+    .container
+      .row.justify-content-center
+        .col-lg-4.col-sm-6.col-md-6
+          .contact-info-block.text-center
+            i.fa-solid.fa-location-dot
+            h4 Address
+            p.lead Banda, Sawantwadi 416511
+        .col-lg-4.col-sm-6.col-md-6
+          .contact-info-block.text-center
+            i.fa-solid.fa-envelope
+            h4 Email
+            p.lead thefreakdevelopers@gmail.com
+        .col-lg-4.col-sm-6.col-md-6
+          .contact-info-block.text-center
+            i.fa-solid.fa-phone
+            h4 Phone Number
+            p.lead +91-1234567890
+  section#contact.section.bg-light
+    .container
+      .row.mb-4
+        .col-md-8.col-lg-6
+          h5 Leave a Message
+          //- Heading
+          h2.section-title.mb-2
+            | Tell us about
+            span.font-weight-normal  yourself
+          //- Subheading
+          p.mb-5
+            | Whether you have questions or you would just like to say hello,
+            | contact us.
+      //- .row
+      .row
+        .col-lg-6
+          //- form message
+          .row
+            .col-12
+              .alert.alert-success.contact__msg(style='display: none' role='alert')
+                | Your message was sent successfully.
+          //- end message
+          //- Contacts Form
+          form.contact_form(onsubmit='sendEmail(); return false;')
+            .row
+              //- Input
+              .col-sm-6.mb-6
+                .form-group
+                  label.h6.small.d-block.text-uppercase
+                    | Your name
+                    span.text-danger *
+                  .input-group
+                    input#name.form-control(name='name' required='' placeholder='John Doe' type='text')
+              //- End Input
+              //- Input
+              .col-sm-6.mb-6
+                .form-group
+                  label.h6.small.d-block.text-uppercase
+                    | Your email address
+                    span.text-danger *
+                  .input-group
+                    input#email.form-control(name='email' required='' placeholder='john@gmail.com' type='email')
+              //- End Input
+              .w-100
+              //- Input
+              .col-sm-6.mb-6
+                .form-group
+                  label.h6.small.d-block.text-uppercase
+                    | Subject
+                    span.text-danger *
+                  .input-group
+                    input#subject.form-control(name='subject' required='' placeholder='Web design' type='text')
+              //- End Input
+              //- Input
+              .col-sm-6.mb-6
+                .form-group
+                  label.h6.small.d-block.text-uppercase
+                    | Your Phone Number
+                    span.text-danger *
+                  .input-group
+                    input#phone.form-control(name='phone' required='' placeholder='+91-123-456-7890' type='text')
+              //- End Input
+            //- Input
+            .form-group.mb-5
+              label.h6.small.d-block.text-uppercase
+                | How can we help you?
+                span.text-danger *
+              .input-group
+                textarea#message.form-control(rows='4' name='message' required='' placeholder='Hi there, I would like to ...')
+            //- End Input
+            div
+              input.btn.btn-primary.btn-circled(name='submit' type='submit' value='Send Message')
+              p.small.pt-3
+                | We&apos;ll get back to you in 1-2 business days.
+          //- End Contacts Form
+
+include include/footer.pug

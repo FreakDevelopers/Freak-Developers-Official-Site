@@ -20,6 +20,7 @@
 * ----------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
+@import 'animation';
 
 html {
   font-family: sans-serif;
@@ -163,7 +164,7 @@ img {
 
 /*-------------------
   BUTTONS STYLE
-----------------=----*/
+---------------------*/
 .btn {
   font-size: 0.6875rem;
   font-weight: 700;
@@ -480,35 +481,35 @@ PAGE BANNER
 .page-contact {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/contact.jpg") fixed 50% 50% no-repeat;
+  background: url('../images/banner/contact.jpg') fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
 .page-service {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/service.jpg") fixed 50% 50% no-repeat;
+  background: url('../images/banner/service.jpg') fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
 .page-about {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/about.jpg") fixed 50% 50% no-repeat;
+  background: url('../images/banner/about.jpg') fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
 .page-pricing {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/img2.jpg") fixed 50% 50% no-repeat;
+  background: url('../images/banner/banner.jpg') fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
 .page-project {
   position: relative;
   padding: 180px 0px;
-  background: url("../images/banner/p-4.jpg") fixed 50% 50% no-repeat;
+  background: url('../images/banner/banner.jpg') fixed 50% 50% no-repeat;
   background-size: cover;
 }
 
@@ -773,11 +774,11 @@ ul.dropdown-menu li {
 }
 
 /*-------------------------
- HOME -2 
+ HOME -2
 -----------------------------*/
 #banner {
   position: relative;
-  background: url("/images/bg/banner_bg.jpg") no-repeat;
+  background: url('../images/bg/banner_bg.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -817,7 +818,7 @@ ul.dropdown-menu li {
 
 #banner-3 {
   position: relative;
-  background: url("../images/banner/banner.jpg") no-repeat;
+  background: url('../images/banner/banner.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -981,11 +982,11 @@ h5.subtitle {
 }
 
 /*----------------------
- PRoject
+ Project
 -----------------------*/
 #projects-wrap {
   position: relative;
-  background: url("../images/bg/banner_bg.jpg") no-repeat;
+  background: url('../images/bg/banner_bg.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -1473,7 +1474,7 @@ CONTACT PAGE
 }
 
 #footer {
-  background: url("../images/bg/footer-bg.jpg");
+  background: url('../images/bg/footer-bg.jpg');
   background-size: cover;
 }
 
