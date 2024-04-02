@@ -1,6 +1,6 @@
 # Freak-Developers
 
-Freak Developers official website.
+FreakDevs official website.
 
 <!-- pages -->
 ## Pages
@@ -13,14 +13,14 @@ Freak Developers official website.
 <!-- support -->
 ## Technical Support or Questions (Paid)
 
-If you have questions or need help integrating the product please [contact us](mailto:thefreakdevelopers@gmail.com) instead of opening an issue.
+If you have questions or need help integrating the product please [contact us](mailto:thefreakdevs@gmail.com) instead of opening an issue.
 
 <!-- license -->
 ## License
 
-Copyright (c) 2022 - Present, Designed & Developed by [FreakDevelopers](https://freakdevelopers.com)
+Copyright (c) 2022 - Present, Designed & Developed by [FreakDevs](https://freakdevs.in)
 
-**Code License:** Released under the [MIT](https://github.com/FreakDevelopers/Freak-Developers-Official-Site/blob/main/LICENSE) license.
+**Code License:** Released under the [MIT](https://github.com/FreakDevs/Freak-Developers-Official-Site/blob/main/LICENSE) license.
 
 **Image license:** The images are only for demonstration purposes. They have their license, we don't have permission to share those images.
 
