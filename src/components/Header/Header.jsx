@@ -4,7 +4,7 @@ import team from "../../assets/images/team.svg";
 
 function Header() {
   return (
-    <section className="py-14 relative border-b border-b-gray-800">
+    <section className="py-14 relative border-b dark:border-b-gray-800">
       <h1 className="text-center text-5xl sm:text-6xl lg:text-7xl lg:text-left font-bold text-[#00325E] dark:text-white">
         Design, Build, <span className="text-blue-500 italic">Scale</span>
       </h1>

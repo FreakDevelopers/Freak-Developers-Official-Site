@@ -1,35 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import logo from "../assets/logo.png";
+import navLinks from "../data/navLinks";
 import { IoMoon, IoSunny } from "react-icons/io5";
 
 function Navbar() {
   const [darkMode, setDarkMode] = useState(true);
   const [open, setOpen] = useState(false);
   const element = document.documentElement;
-  const navLinks = [
-    {
-      id: 1,
-      title: "Home",
-      navLink: "/",
-    },
-    {
-      id: 2,
-      title: "About",
-      navLink: "/about",
-    },
-    {
-      id: 3,
-      title: "Contact",
-      navLink: "/contact",
-    },
-    {
-      id: 4,
-      title: "Careers",
-      navLink: "/careers",
-    },
-  ];
   const { pathname } = useLocation();
+
   useEffect(() => {
     if (darkMode == true) {
       element.classList.add("dark");
@@ -87,7 +67,9 @@ function Navbar() {
             <div
               id="navlinks"
               className={`${
-                open ? "visible opacity-1 scale-100" : "invisible opacity-0"
+                open
+                  ? "visible opacity-1 scale-x-100 scale-y-100"
+                  : "invisible opacity-0"
               } absolute top-full left-0 z-20 w-full origin-top-right translate-y-1 scale-90 flex-col flex-wrap justify-end gap-6 rounded-3xl border border-gray-200 bg-white p-8 shadow-2xl shadow-gray-600/10 transition-all duration-300 dark:border-gray-700 dark:bg-gray-800 dark:shadow-none lg:visible lg:relative lg:flex lg:w-auto lg:translate-y-0 lg:scale-100 lg:flex-row lg:items-center lg:gap-0 lg:border-none lg:bg-transparent lg:p-0 lg:opacity-100 lg:shadow-none lg:peer-checked:translate-y-0 dark:lg:bg-transparent`}
             >
               <div className="text-gray-600 dark:text-gray-300 lg:pr-4">

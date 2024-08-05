@@ -39,7 +39,7 @@ function Footer() {
                     href="https://github.com/FreakDevelopers"
                     target="blank"
                     aria-label="github"
-                    className="hover:text-primary dark:hover:text-primaryLight"
+                    className="hover:text-blue-500 dark:hover:text-white"
                   >
                     <span className="sr-only">Github</span>
                     <FaGithub size={20} />
@@ -48,7 +48,7 @@ function Footer() {
                     href="https://www.linkedin.com/in/freakdevs/"
                     target="blank"
                     aria-label="linkedin"
-                    className="hover:text-primary dark:hover:text-primaryLight"
+                    className="hover:text-blue-500 dark:hover:text-white"
                   >
                     <span className="sr-only">LinkedIn</span>
                     <FaLinkedin size={20} />
@@ -57,7 +57,7 @@ function Footer() {
                     href="https://www.instagram.com/freakdevs.in/"
                     target="blank"
                     aria-label="instagram"
-                    className="hover:text-primary dark:hover:text-primaryLight"
+                    className="hover:text-blue-500 dark:hover:text-white"
                   >
                     <span className="sr-only">Instagram</span>
 
@@ -77,7 +77,7 @@ function Footer() {
                     <li>
                       <Link
                         to="/about"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         About
                       </Link>
@@ -85,7 +85,7 @@ function Footer() {
                     <li>
                       <Link
                         to="/contact"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Contact
                       </Link>
@@ -93,7 +93,7 @@ function Footer() {
                     <li>
                       <a
                         href="mailto:thefreakdevs@gmail.com"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Support
                       </a>
@@ -101,7 +101,7 @@ function Footer() {
                     <li>
                       <Link
                         to="/careers"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Careers
                       </Link>
@@ -110,7 +110,7 @@ function Footer() {
                       <a
                         href="https://invoice.freakdevs.in/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Invoice
                       </a>
@@ -126,7 +126,7 @@ function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Web Designing
                       </a>
@@ -134,7 +134,7 @@ function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Web Development
                       </a>
@@ -142,7 +142,7 @@ function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Web Hosting
                       </a>
@@ -150,7 +150,7 @@ function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Domain
                       </a>
@@ -158,7 +158,7 @@ function Footer() {
                     <li>
                       <a
                         href="#"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         SEO
                       </a>
@@ -175,7 +175,7 @@ function Footer() {
                       <a
                         href="https://daily.dev/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Daily.dev
                       </a>
@@ -184,7 +184,7 @@ function Footer() {
                       <a
                         href="https://it-tools.tech/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         IT Tools
                       </a>
@@ -193,7 +193,7 @@ function Footer() {
                       <a
                         href="https://www.shapedivider.app/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Shape Divider
                       </a>
@@ -202,7 +202,7 @@ function Footer() {
                       <a
                         href="https://simpleicons.org/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         Simple Icons
                       </a>
@@ -211,7 +211,7 @@ function Footer() {
                       <a
                         href="https://quickref.me/"
                         target="_blank"
-                        className="text-sm duration-100 hover:text-primary dark:hover:text-white"
+                        className="text-sm duration-100 hover:text-blue-500 dark:hover:text-white"
                       >
                         QuickRef.Me
                       </a>
