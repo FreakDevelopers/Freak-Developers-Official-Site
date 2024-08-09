@@ -24,9 +24,10 @@ function Testimonials() {
 
       <div className="flex flex-col lg:flex-row justify-between gap-16">
         <div className="lg:w-1/2">
-          <h1 className="mt-4 text-2xl sm:text-4xl lg:text-5xl text-center lg:text-left font-bold text-[#00325E] dark:text-white">
-            What Our <span className="text-blue-500">Customer</span> Says ?
-          </h1>
+          <h3 className="mt-4 text-2xl sm:text-4xl text-center lg:text-left font-bold text-[#00325E] dark:text-white">
+            What Our <span className="text-blue-500 italic">Customer</span> Says
+            ?
+          </h3>
           <p className="mt-4 text-center lg:text-left text-gray-600 dark:text-gray-400">
             Our customers consistently praise our dedication to excellence,
             reliability, and outstanding service. They appreciate our attention
