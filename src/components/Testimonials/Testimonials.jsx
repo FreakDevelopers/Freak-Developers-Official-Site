@@ -1,11 +1,6 @@
 import React, { useState } from "react";
 import testimonials from "../../data/testimonials";
-import {
-  FaChevronLeft,
-  FaChevronRight,
-  FaQuoteLeft,
-  FaQuoteRight,
-} from "react-icons/fa6";
+import { FaChevronLeft, FaChevronRight, FaQuoteLeft } from "react-icons/fa6";
 import { BiSolidStar } from "react-icons/bi";
 
 function Testimonials() {
@@ -23,7 +18,7 @@ function Testimonials() {
 
   return (
     <section className="my-32">
-      <h2 className="mb-12 text-center text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">
+      <h2 className="mb-8 lg:mb-16 text-center text-3xl font-bold text-gray-800 dark:text-white md:text-4xl">
         Testimonials
       </h2>
 
@@ -49,16 +44,11 @@ function Testimonials() {
             {testimonials.map((item, id) => (
               <div
                 key={id}
-                className="flex flex-col shadow-md dark:shadow-black/30 min-w-full  gap-y-6 border dark:border-gray-800 p-6 rounded-lg"
+                className="flex flex-col shadow-md dark:shadow-black/30 min-w-full h-fit gap-y-4 border dark:border-gray-800 p-6 rounded-lg"
               >
-                <div className="flex gap-x-1 text-gray-600 dark:text-gray-300 text-lg">
-                  <div className="">
-                    <FaQuoteLeft className="text-4xl" />
-                  </div>
-                  <div className="mt-4">
-                    {item.message}
-                    <FaQuoteRight className="inline-block align-super text-xs" />
-                  </div>
+                <div className="text-gray-600 dark:text-gray-300 text-lg">
+                  <FaQuoteLeft size={45} />
+                  <p className="font-medium mt-1">{item.message}</p>
                 </div>
                 <div className="flex gap-x-4">
                   <img
@@ -86,14 +76,14 @@ function Testimonials() {
             <button
               type="button"
               onClick={prevSlideHandler}
-              className="hover:text-white"
+              className="hover:text-gray-500 dark:hover:text-white"
             >
               <FaChevronLeft />
             </button>
             <button
               type="button"
               onClick={nextSlideHandler}
-              className="hover:text-white"
+              className="hover:text-gray-500  dark:hover:text-white"
             >
               <FaChevronRight />
             </button>
