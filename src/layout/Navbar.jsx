@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo_blue.png";
 import navLinks from "../data/navLinks";
 import { IoMoon, IoSunny } from "react-icons/io5";
 
